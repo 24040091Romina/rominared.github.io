@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mi Red Social - Facebook</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <!-- Enlaza tu CSS (asegúrate que styles.css esté en la misma carpeta) -->
+  <link rel="stylesheet" href="styles/stylefb.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <img src="images/logofb.jpg" alt="logo" class="logo">
+      <span class="brand-name">Facebook</span>
+    </div>
+
+    <div class="search">
+      <input type="search" placeholder="Buscar amigos, publicaciones..." aria-label="Buscar">
+    </div>
+
+    <nav class="top-actions" aria-label="Acciones principales">
+      <button class="icon-btn">Inicio</button>
+      <button class="icon-btn">Notificaciones</button>
+      <button class="icon-btn profile">Perfil</button>
+    </nav>
+  </header>
+
+  <main class="container">
+    <!-- Barra lateral izquierda -->
+    <aside class="left-sidebar" aria-label="Navegación">
+      <ul>
+        <li class="active">Inicio</li>
+        <li>Explorar</li>
+        <li>Mensajes</li>
+        <li>Eventos</li>
+        <li>Grupos</li>
+        <li>Marketplace</li>
+      </ul>
+
+      <section class="shortcuts">
+        
+      </section>
+    </aside>
+
+    <!-- Zona principal (feed) -->
+    <section class="feed" aria-label="Feed de publicaciones">
+      <!-- Composer (crear publicación) -->
+      <article class="composer" aria-label="Crear publicación">
+        <div class="composer-top">
+          <img src="images/fotofb.jpg" alt="Tu foto" class="avatar">
+          <input type="text" placeholder="¿Qué estás pensando?" aria-label="Crear publicación">
+        </div>
+        <div class="composer-actions">
+          <button>📷 Foto</button>
+          <button>🎥 Video</button>
+          <button>😀 Estado</button>
+          <button class="post-btn">Publicar</button>
+        </div>
+      </article>
+
+      <!-- Publicación ejemplo 1 -->
+      <article class="post">
+        <header class="post-header">
+          <img src="images/fotobfalb.jpg" alt="Autor" class="avatar">
+          <div>
+            <strong>Alberto Loera</strong>
+            <div class="meta">Hace 2 hrs · Público</div>
+          </div>
+        </header>
+        <div class="post-body">
+          <p>Yooooo</p>
+          <img src="images/meme.jpg" alt="imagen de la publicación" class="post-image">
+        </div>
+        <footer class="post-footer">
+          <div class="reactions">😂 120 · 👍 30 </div>
+          <div class="post-actions">
+            <button>Me gusta</button>
+            <button>Comentar</button>
+            <button>Compartir</button>
+          </div>
+        </footer>
+      </article>
+
+      <!-- Publicación ejemplo 2 -->
+      <article class="post">
+        <header class="post-header">
+          <img src="images/fotovv.jpg" alt="Autor" class="avatar">
+          <div>
+            <strong>Viane Morin</strong>
+            <div class="meta">Hace 30 min · Amigos</div>
+          </div>
+        </header>
+        <div class="post-body">
+          <img src="images/fotovv.jpg" alt="imagen de la publicación" class="post-image">
+        </div>
+        <footer class="post-footer">
+          <div class="reactions">❤️ 45</div>
+          <div class="post-actions">
+            <button>Me gusta</button>
+            <button>Comentar</button>
+            <button>Compartir</button>
+          </div>
+        </footer>
+      </article>
+
+      <article class="post">
+        <header class="post-header">
+          <img src="images/fotojr.jpg" alt="Autor" class="avatar">
+          <div>
+            <strong>Jair Montes</strong>
+            <div class="meta">Hace 2 hrs · Público</div>
+          </div>
+        </header>
+        <div class="post-body">
+          <p>Yooooo</p>
+          <img src="images/fotomemee.jpg" alt="imagen de la publicación" class="post-image">
+        </div>
+        <footer class="post-footer">
+          <div class="reactions">❤️ 30 · 😮 5</div>
+          <div class="post-actions">
+            <button>Me gusta</button>
+            <button>Comentar</button>
+            <button>Compartir</button>
+          </div>
+        </footer>
+      </article>
+
+    </section>
+
+    <!-- Barra lateral derecha -->
+    <aside class="right-sidebar" aria-label="Panel derecho">
+      <section class="contacts">
+        <h4>Amigos conectados</h4>
+        <ul>
+          <li><img src="https://via.placeholder.com/36" alt=""> 🟢 Viane Morin</li>
+          <li><img src="https://via.placeholder.com/36" alt=""> 🟢  Jair Montes</li>
+          <li><img src="https://via.placeholder.com/36" alt=""> 🟢  Harold Constante</li>
+        </ul>
+      </section>
+
+      <section class="trending">
+        <h4>Tendencias</h4>
+        <ol>
+          <li>#Duki</li>
+          <li>#The Conjuring</li>
+        </ol>
+      </section>
+    </aside>
+  </main>
+
+  <footer class="site-footer">
+    <p>Facebook  · 2025</p>
+  </footer>
+</body>
+</html>
